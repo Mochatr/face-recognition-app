@@ -28,6 +28,9 @@ while True:
     for (x, y, w, h) in faces:
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 3)
 
+    # Adjust the distance between the camera and the user to detect the face from moderate distance
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(100, 100))
+
     # Display the frame
     cv2.imshow('Face Detection', frame)
 
