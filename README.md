@@ -1,6 +1,6 @@
 # Face Recognition App
 
-![face recognition][https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQINqAWL04RN1DJQi2BD-VmTYcYc6j7kDitSg&s]
+![face recognition](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQINqAWL04RN1DJQi2BD-VmTYcYc6j7kDitSg&s)
 
 This project is a face recognition application that uses openCV package to detect and recognize faces.
 
